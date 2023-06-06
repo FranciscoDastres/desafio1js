@@ -27,5 +27,8 @@ function colorChange() {
     } else if (colorSelected === "black") {
       document.querySelector("img").src = "assets/img/controlPs4Color1.png";
       colorBox.style.color = "black";
+    }else if (colorSelected === "all") {
+      document.querySelector("img").src = "assets/img/controlesPs4Variedades.png";
+      colorBox.style.color = "all";
     }
 }
