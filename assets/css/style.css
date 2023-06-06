@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px; 
+    justify-content: center;
+    width: 300px;
+    background-color: cornsilk;
+    align-items: center;
+    border-radius: 2%;
+
+}
+
+.fotos {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+#circle {
+    border: 1px solid #270e0e;
+    border-radius: 100%;
+    width: 18px;
+}
+
+
+.infoCompra{    
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+

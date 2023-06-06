@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/bd1af2d4f8.js" crossorigin="anonymous"></script>
+    <title>Desafio 1 JS</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img class=fotos src="assets/img/controlps4color1.png" alt="control1">
+            <h1>Control PS4</h1>
+            <p>Cantidad de controles a comprar</p>
+            <input id="cantidad" type="number" placeholder="Cantidad"><br>
+            <p>Porfavor escoja el color a su gusto</p>
+            <select id="color" id="color" onchange="colorChange()">
+                <option value="">Seleccionar</option>
+                <option value="black">Negro</option>
+                <option value="red">Rojo</option>
+                <option value="blue">Azul</option>
+            </select>
+            <h3>Precio: <span id="total">$50.000</span></h3>
+            <button id="btnTotal" onclick="calcular()">Calcular total</button>
+            <p id=""></p>
+        </div>
+        <div id="infototal" class="infoCompra">
+            <p>Total: $<span id="totalFinal">0</span></p>
+            <p>Cantidad: <span id="cantidadFinal">0</span></p>
+            <p>Color:
+            <i class="fa-solid fa-circle color-box" id="color-box"></i>
+            </p>
+        </div>
+
+        <script src="assets/js/calular.js"></script>
+    </div>
+</body>
+
+</html>
