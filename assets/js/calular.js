@@ -9,7 +9,7 @@ function calcular() {
     if (cantidad<=0) {
         text ="Porfavor ingresar un número válido"
         document.querySelector("#totalFinal").innerHTML = text;
-        document.querySelector("#cantidadfinal").style.display = "none";
+        document.querySelector("#cantidadFinal").style.display = "none";
     } else {
         document.querySelector("#totalFinal").innerHTML = "$" + total;
     }
