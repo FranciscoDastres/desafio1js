@@ -19,13 +19,13 @@ function colorChange() {
     colorSelected = document.querySelector("#color").value;
     colorBox = document.querySelector("#color-box");
     if (colorSelected === "red") {
-      document.querySelector("img").src = "./assets/img/controlPs4Color2.png";
+      document.querySelector("img").src = "./assets/img/controlPs4Color2Red.png";
       colorBox.style.color = "red";
     } else if (colorSelected === "blue") {
-      document.querySelector("img").src = "./assets/img/controlPs4Color3.png";
+      document.querySelector("img").src = "./assets/img/controlPs4Color3Blue.png";
       colorBox.style.color = "blue";
     } else if (colorSelected === "black") {
-      document.querySelector("img").src = "./assets/img/controlPs4Color1.png";
+      document.querySelector("img").src = "./assets/img/controlPs4Color1Black.png";
       colorBox.style.color = "black";
     }else if (colorSelected === "all") {
       document.querySelector("img").src = "./assets/img/controlesPs4Variedades.png";
